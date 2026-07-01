@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kratos The Gym is a modern fitness club offering expert trainers, dynamic classes, flexible plans, and a motivating training environment.">
+  <title>Kratos The Gym | Modern Fitness & Training</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="site-logo" href="#home" aria-label="Kratos The Gym home">Kratos The Gym</a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-menu">
+        <span class="hamburger-symbol" aria-hidden="true">☰</span>
+      </button>
+
+      <ul class="nav-menu" id="primary-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#classes">Classes</a></li>
+        <li><a href="#trainers">Trainers</a></li>
+        <li><a href="#plans">Plans</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img
+        class="hero-image"
+        src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1920&q=80"
+        alt="Athletes training with weights in a modern gym"
+      >
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content">
+        <div class="hero-copy">
+          <p class="section-kicker">Premium Fitness Club</p>
+          <h1 id="hero-title">Transform Your Body. Train With Purpose.</h1>
+          <p>
+            Join Kratos The Gym for elite coaching, powerful group classes, and a high-energy training floor built for real results.
+          </p>
+
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button button-primary" href="#plans">Join Now</a>
+            <a class="button button-outline" href="#classes">Explore Classes</a>
+          </div>
+
+          <dl class="hero-stats" aria-label="Kratos The Gym highlights">
+            <div>
+              <dt>24/7</dt>
+              <dd>Gym Access</dd>
+            </div>
+            <div>
+              <dt>35+</dt>
+              <dd>Weekly Classes</dd>
+            </div>
+            <div>
+              <dt>4.9</dt>
+              <dd>Member Rating</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero-card" aria-label="Featured class">
+          <p class="hero-card-label">Today at 6:30 PM</p>
+          <h2>CrossFit Burn</h2>
+          <p>Functional strength, conditioning, and coach-led technique work in one intense session.</p>
+          <ul>
+            <li>Beginner-friendly scaling</li>
+            <li>Certified strength coach</li>
+            <li>Limited to 14 members</li>
+          </ul>
+          <a class="button" href="#contact">Book Free Trial</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="innovation-showcase" id="innovation" aria-labelledby="innovation-title">
+      <div class="innovation-layout">
+        <div class="innovation-copy">
+          <p class="section-kicker">Gym Innovation</p>
+          <h2 id="innovation-title">Innovating Fitness. Transforming Lives.</h2>
+          <p>
+            Experience a premium training environment with smart equipment, personalized coaching, holistic wellness, and results-driven programs.
+          </p>
+          <a class="button button-outline" href="#contact">Visit Our Studio</a>
+        </div>
+
+    <figure class="innovation-media">
+      <video autoplay loop muted playsinline poster="assets/testimonials/yash.png">
+        <source src="assets/gymvideo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </figure>
+      </div>
+    </section>
+
+    <section class="about" id="about" aria-labelledby="about-title">
+      <div class="section-header">
+        <p class="section-kicker">About Us</p>
+        <h2 id="about-title">A Training Space Built For Progress</h2>
+        <p>
+          Kratos The Gym combines performance equipment, motivating coaches, and flexible programs to help every member train with purpose. Whether you are starting fresh or chasing a new personal best, our facility is designed to support your next level.
+        </p>
+      </div>
+
+      <div class="feature-grid" aria-label="Gym features">
+        <article class="feature-card">
+          <img src="assets/img/gym2.jpg" alt="Fitness coach guiding a group workout">
+          <h3>Expert Coaching</h3>
+          <p>Certified trainers guide your technique, programming, and long-term progress.</p>
+        </article>
+
+        <article class="feature-card">
+          <img src="assets/img/gym4.webp" alt="Rows of strength training equipment">
+          <h3>Modern Equipment</h3>
+          <p>Train with premium machines, free weights, functional rigs, and recovery tools.</p>
+        </article>
+
+        <article class="feature-card">
+          <img src="assets/img/gym1.webp" alt="Gym members training together in a studio class">
+          <h3>Community Energy</h3>
+          <p>Stay consistent with motivating group classes and a supportive fitness culture.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="classes" id="classes" aria-labelledby="classes-title">
+      <div class="section-header">
+        <p class="section-kicker">Classes</p>
+        <h2 id="classes-title">Find Your Training Style</h2>
+      </div>
+
+      <div class="class-grid">
+        <article class="class-card" data-class="weight-loss">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=700&q=80" alt="Athletes performing high intensity interval training">
+          <h3>Weight Loss Classes</h3>
+          <p>High-energy fat-burning workouts with cardio, circuits, and coach-led intensity control.</p>
+        </article>
+
+        <article class="class-card" data-class="powerlifting">
+          <img src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=700&q=80" alt="Athlete preparing for a heavy barbell powerlifting set">
+          <h3>Powerlifting Classes</h3>
+          <p>Master squat, bench press, and deadlift technique with structured strength programming.</p>
+        </article>
+
+        <article class="class-card" data-class="strength-building">
+          <img src="https://images.unsplash.com/photo-1574680178050-55c6a6a96e0a?auto=format&fit=crop&w=700&q=80" alt="Gym member doing strength building training with dumbbells">
+          <h3>Strength Building Classes</h3>
+          <p>Build muscle, improve form, and progress safely with guided full-body strength sessions.</p>
+        </article>
+
+        <article class="class-card" data-class="weight-lifting">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=700&q=80" alt="Person lifting a barbell during weight lifting training">
+          <h3>Weight Lifting Classes</h3>
+          <p>Learn barbell, dumbbell, and machine-based lifting for better strength and confidence.</p>
+        </article>
+
+        <article class="class-card" data-class="cardio">
+          <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e?auto=format&fit=crop&w=700&q=80" alt="Runner training on cardio equipment">
+          <h3>Cardio</h3>
+          <p>Boost heart health and endurance with coach-led treadmill, bike, and circuit work.</p>
+        </article>
+
+        <article class="class-card" data-class="crossfit">
+          <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=700&q=80" alt="Athlete doing CrossFit strength training with battle ropes">
+          <h3>CrossFit</h3>
+          <p>Challenge your strength, skill, and conditioning with varied functional workouts.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="trainers" id="trainers" aria-labelledby="trainers-title">
+      <div class="section-header">
+        <p class="section-kicker">Trainers</p>
+        <h2 id="trainers-title">Meet Your Coaches</h2>
+      </div>
+
+      <div class="trainer-grid">
+        <article class="trainer-card">
+          <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=700&q=80" alt="Trainer Hemant smiling in a gym">
+          <h3>Hemant</h3>
+          <p>Strength & Conditioning</p>
+          <ul class="social-links" aria-label="Hemant social links">
+            <li><a href="#" aria-label="Hemant on Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Hemant on LinkedIn">LinkedIn</a></li>
+          </ul>
+        </article>
+
+        <article class="trainer-card">
+          <img src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50?auto=format&fit=crop&w=700&q=80" alt="Trainer Yash preparing boxing gloves">
+          <h3>Yash</h3>
+          <p>Weight Loss & Cardio</p>
+          <ul class="social-links" aria-label="Yash social links">
+            <li><a href="#" aria-label="Yash on Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Yash on LinkedIn">LinkedIn</a></li>
+          </ul>
+        </article>
+
+        <article class="trainer-card">
+          <img src="https://images.unsplash.com/photo-1609899464726-209befaac5bc?auto=format&fit=crop&w=700&q=80" alt="Trainer Visham teaching mobility work">
+          <h3>Visham</h3>
+          <p>Powerlifting Coach</p>
+          <ul class="social-links" aria-label="Visham social links">
+            <li><a href="#" aria-label="Visham on Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Visham on LinkedIn">LinkedIn</a></li>
+          </ul>
+        </article>
+
+        <article class="trainer-card">
+          <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=700&q=80" alt="Trainer Ramesh coaching weight lifting">
+          <h3>Ramesh</h3>
+          <p>Weight Lifting Specialist</p>
+          <ul class="social-links" aria-label="Ramesh social links">
+            <li><a href="#" aria-label="Ramesh on Instagram">Instagram</a></li>
+            <li><a href="#" aria-label="Ramesh on LinkedIn">LinkedIn</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="plans" id="plans" aria-labelledby="plans-title">
+      <div class="section-header">
+        <p class="section-kicker">Membership Plans</p>
+        <h2 id="plans-title">Choose Your Fit</h2>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="pricing-card">
+          <h3>One Month</h3>
+          <p class="price">&#8377;2500<span>/month</span></p>
+          <ul>
+            <li>Gym floor access</li>
+            <li>Locker room access</li>
+            <li>Fitness assessment</li>
+          </ul>
+          <a class="button" href="#contact">Choose One Month</a>
+        </article>
+
+        <article class="pricing-card pricing-card-featured">
+          <h3>Three Months</h3>
+          <p class="price">&#8377;4000<span>/3 months</span></p>
+          <ul>
+            <li>Everything in One Month</li>
+            <li>Unlimited group classes</li>
+            <li>Monthly trainer check-in</li>
+          </ul>
+          <a class="button button-primary" href="#contact">Choose Three Months</a>
+        </article>
+
+        <article class="pricing-card">
+          <h3>Twelve Months</h3>
+          <p class="price">&#8377;15000<span>/year</span></p>
+          <ul>
+            <li>Everything in Three Months</li>
+            <li>Personal training sessions</li>
+            <li>Nutrition coaching</li>
+          </ul>
+          <a class="button" href="#contact">Choose Twelve Months</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="section-header">
+        <p class="section-kicker">Testimonials</p>
+        <h2 id="testimonials-title">Member Results</h2>
+      </div>
+
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <img src="assets/testimonials/arjun-sharma.jpg" alt="Portrait of Indian gym member Arjun Sharma">
+          <div class="star-rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            <p>"Weight loss classes ne meri consistency improve kar di. Trainers bahut supportive hain aur workouts properly planned hote hain."</p>
+          </blockquote>
+          <p class="testimonial-author">Arjun Sharma</p>
+        </article>
+
+        <article class="testimonial-card">
+          <img src="assets/testimonials/riya-malhotra.jpg" alt="Portrait of Indian gym member Priya Verma">
+          <div class="star-rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            <p>"Gym ka environment clean, premium aur motivating hai. Strength building classes se mujhe real results mile."</p>
+          </blockquote>
+          <p class="testimonial-author">Priya Verma</p>
+        </article>
+
+        <article class="testimonial-card">
+          <img src="assets/testimonials/rohan-mehta.jpg" alt="Portrait of Indian gym member Rohan Mehta">
+          <div class="star-rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            <p>"Powerlifting coaching top level hai. Form, diet aur progression sab par proper guidance milti hai."</p>
+          </blockquote>
+          <p class="testimonial-author">Rohan Mehta</p>
+        </article>
+
+        <article class="testimonial-card">
+          <img src="assets/testimonials/neha-kapoor.jpg" alt="Portrait of Indian gym member Neha Kapoor">
+          <div class="star-rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            <p>"Three months plan value for money hai. Classes energetic hain aur staff har member ko personally guide karta hai."</p>
+          </blockquote>
+          <p class="testimonial-author">Neha Kapoor</p>
+        </article>
+
+        <article class="testimonial-card">
+          <img src="assets/testimonials/karan-singh.jpg" alt="Portrait of Indian gym member Karan Singh">
+          <div class="star-rating" aria-label="5 out of 5 stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <blockquote>
+            <p>"Weight lifting classes se meri technique aur confidence dono improve hue. Trainers genuinely result-focused hain."</p>
+          </blockquote>
+          <p class="testimonial-author">Karan Singh</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="section-header">
+        <p class="section-kicker">Contact</p>
+        <h2 id="contact-title">Visit Kratos The Gym</h2>
+      </div>
+
+      <div class="contact-layout">
+        <address class="contact-details">
+          <h3>Location</h3>
+          <p>1st Floor, Kshitij Complex, Kratos The Gym, above Reliance fresh, opp. Paras Traders, Swati Society, Navrangpura, Ahmedabad, Gujarat 380009</p>
+          <p><a href="tel: 097732 80405"> 097732 80405</a></p>
+          <p><a href="mailto:hello@kratosthegym.com">hello@kratosthegym.com</a></p>
+
+          <h3>Hours</h3>
+          <ul>
+            <li>Monday-Friday: 5:00 AM-11:00 PM</li>
+            <li>Saturday: 6:00 AM-9:00 PM</li>
+            <li>Sunday: 7:00 AM-8:00 PM</li>
+          </ul>
+        </address>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required>
+          </div>
+
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+          </div>
+
+          <button class="button button-primary" type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Kratos The Gym. All rights reserved.</p>
+    <ul class="social-links" aria-label="Kratos The Gym social links">
+      <li><a href="#" aria-label="Kratos The Gym on Instagram">Instagram</a></li>
+      <li><a href="#" aria-label="Kratos The Gym on Facebook">Facebook</a></li>
+      <li><a href="#" aria-label="Kratos The Gym on YouTube">YouTube</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
